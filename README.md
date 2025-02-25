@@ -71,6 +71,10 @@ pip3 install -r requirements.txt
 ```sh
 aws s3 cp image_name.jpg s3://bucket-name/
 ```
+or,
+```sh
+Manually upload image to be labeled in S3 Bucket
+```
 
 ### 4. Run the Image Label Detection
 ```sh
