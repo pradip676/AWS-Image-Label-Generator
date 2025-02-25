@@ -96,12 +96,15 @@ Total labels detected: 3
 ### Bounding Boxes Output
 The script also overlays bounding boxes on detected objects in the image using **Matplotlib** and **PIL**.
 
+## Final Output
+![Final Result](Images/Result.png)
+
 ## File Structure
 ```
 AWS-Image-Label-Generator/
 │── detect_labels.py        
 │── requirements.txt        
-│── docs/
+│── Images/
 │   ├── architecture.png    
 │   ├── usage.md            
 │── .gitignore              
