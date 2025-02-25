@@ -106,7 +106,7 @@ AWS-Image-Label-Generator/
 │── requirements.txt        
 │── Images/
 │   ├── architecture.png    
-│   ├── usage.md            
+│   ├── result.png            
 │── .gitignore              
 │── README.md               
 │── LICENSE                 
