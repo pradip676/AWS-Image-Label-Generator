@@ -12,7 +12,7 @@ This project utilizes **AWS Rekognition** to analyze images stored in an **S3 bu
 ## Architecture
 ![Architecture Diagram](Images/Architecture.png)
 
-## Prerequisites
+## Requirements
 Ensure you have the following installed:
 - **Python 3.8+**
 - **AWS CLI** (configured with IAM credentials)
@@ -67,16 +67,12 @@ or,
 pip3 install -r requirements.txt
 ```
 
-### 3. Open your preferred IDE (VSCode, etc.), and create a `.py` file.
-
-## Usage
-
-### Upload an Image to S3
+### 3. Upload an Image to S3
 ```sh
-aws s3 cp sample_image.jpg s3://your-bucket-name/
+aws s3 cp image_name.jpg s3://bucket-name/
 ```
 
-### Run the Image Label Detection
+### 4. Run the Image Label Detection
 ```sh
 python detect_labels.py
 ```
